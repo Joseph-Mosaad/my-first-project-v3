@@ -12,7 +12,11 @@
     }
   /*NAVBAR*/
   
-  
+  #navbar-header{
+    position:fixed;
+    z-index: 10;
+    top: 0px;
+  }
         .navbar-brand {
           font-size: 40px;
           padding-left:  5%;
@@ -46,6 +50,10 @@
   
   
            /*ABOUT ME*/
+           #about-aboutme{
+
+            margin-top: 12%;
+           }
           
            #about-aboutme .about-me-title{
              color: rgb(134, 4, 134);
@@ -69,7 +77,7 @@
   /*Projects*/
   
   #projects {
-    background-color: rgb(196, 189, 192);
+    background-color: rgb(226, 220, 223);
     padding-top: 3%;
    
     
@@ -232,7 +240,7 @@
   
   /*CONTACT ME SECTION*/
   #contactme-section{
-    background-color: rgb(226, 226, 213);
+    background-color: rgb(226, 220, 223);
     margin-top: 3%;
   }
   
@@ -246,7 +254,7 @@
   }
   
   #social-contact {
-    background-color: rgb(10, 104, 133);
+    background-color: rgb(10, 153, 197);
     border: solid 1px green;
     border-radius: 1rem;
     
